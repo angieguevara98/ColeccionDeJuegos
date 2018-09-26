@@ -13,6 +13,7 @@
 		8512BDF2215BFDB200EB3233 /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8512BDF0215BFDB200EB3233 /* ColeccionDeJuegos.xcdatamodeld */; };
 		8512BDF4215BFDB200EB3233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8512BDF3215BFDB200EB3233 /* Assets.xcassets */; };
 		8512BDF7215BFDB200EB3233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8512BDF5215BFDB200EB3233 /* LaunchScreen.storyboard */; };
+		8512BDFF215C0B4300EB3233 /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8512BDFE215C0B4300EB3233 /* JuegoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8512BDF3215BFDB200EB3233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8512BDF6215BFDB200EB3233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8512BDF8215BFDB200EB3233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8512BDFE215C0B4300EB3233 /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8512BDE8215BFDB200EB3233 /* ColeccionDeJuegos */ = {
 			isa = PBXGroup;
 			children = (
+				8512BDFE215C0B4300EB3233 /* JuegoViewController.swift */,
 				8512BDE9215BFDB200EB3233 /* AppDelegate.swift */,
 				8512BDEB215BFDB200EB3233 /* ViewController.swift */,
 				8512BDED215BFDB200EB3233 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8512BDEC215BFDB200EB3233 /* ViewController.swift in Sources */,
+				8512BDFF215C0B4300EB3233 /* JuegoViewController.swift in Sources */,
 				8512BDEA215BFDB200EB3233 /* AppDelegate.swift in Sources */,
 				8512BDF2215BFDB200EB3233 /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
@@ -278,11 +282,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZDC8B9Q6B;
 				INFOPLIST_FILE = ColeccionDeJuegos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pe.guevara.ColeccionDeJuegos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,11 +299,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZDC8B9Q6B;
 				INFOPLIST_FILE = ColeccionDeJuegos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pe.guevara.ColeccionDeJuegos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
